@@ -1,0 +1,40 @@
+/*custom css for login page*/
+.login-nav-text {
+  color: white !important;
+}
+.test{
+  color: red;
+  padding-top: 500px;
+  font-size: 40px;
+}
+.fb-navbar{
+  background: linear-gradient(#4E69A2, #3B5998);
+}
+.navbar-button {
+  background-color: #4267B2;
+  border-color: #29487D;
+}
+
+.navbar-button:hover{
+  background-color: #3B5998;
+  border-color: #29487D;
+
+}
+
+.login-jumbotron{
+  padding: 2rem 2rem !important;
+  background: linear-gradient(#FFFFFF, #D3D8E8);
+
+}
+
+.terms {
+  font-size: 10px;s
+}
+
+.blue {
+  color: blue;
+}
+
+.terms p {
+  margin-bottom: 0;
+}

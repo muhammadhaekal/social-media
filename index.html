@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Facebook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/myStyle.css">
+
+  <body>
+    <nav class="navbar navbar-expand-sm fb-navbar ">
+      <div class="container">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <h2><b><a class="nav-link login-nav-text" href="#">facebook</a></b></h2>
+          </li>
+        </ul>
+        <form class="form-inline navbar-toggler-right">
+          <div class="form-group pb-1">
+            <label for="inputEmail" class="sr-only">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+          <div class="form-group px-sm-3 pb-1">
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary mb-1 navbar-button">Login</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron login-jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col1">
+            <h5><b>Facebook helps you connect and share with the people in your life.</b></h5>
+            <img src="./assets/img/fb-connecting-world.png" alt="connecting-world">
+          </div>
+          <div class="col-sm-6 col1">
+            <h1><b>Create an account</b></h1>
+            <p>It`s free and always will be.</p>
+            <div class="row pb-3">
+              <div class="col-sm-6 col1 ">
+                <label for="inputFirstname" class="sr-only">First Name</label>
+                <input type="text" class="form-control" id="inputFirstname" placeholder="First Name">
+              </div>
+              <div class="col-sm-6 col1">
+                <label for="inputSurename" class="sr-only">Surename</label>
+                <input type="text" class="form-control" id="inputSurename" placeholder="Surename">
+              </div>
+            </div>
+            <div class="input-field pb-3">
+              <label for="mobileNumOrEmail" class="sr-only">Mobile Number Or Email</label>
+              <input type="text" class="form-control" id="mobileNumOrEmail" placeholder="Mobile number or email address">
+            </div>
+            <div class="input-field pb-3">
+              <label for="newPassword" class="sr-only">New Password</label>
+              <input type="password" class="form-control" id="newPassword" placeholder="New Password">
+            </div>
+            <div class="input-field pb-3">
+              <div class="row">
+                <div class="col-sm-2 col1 pr-0">
+                  <select class="form-control form-control-sm">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div class="col-sm-2 col1 pl-0 pr-0">
+                  <select class="form-control form-control-sm">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                  </select>
+                </div>
+                <div class="col-sm-2 col1 pl-0 ">
+                  <select class="form-control form-control-sm">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                  </select>
+                </div>
+                <div class="col-sm-4 col1 pl-0 ">
+                  <div class="terms pagination-centered">
+                    <p>Why do I need to provide my date of birth?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="input-field pb-3">
+              <div class="row pl-1">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-</div>check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    Male
+                  </label>
+                </div>
+                <div class="row pl-4">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        Female
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8 col1 terms">
+                <p>By clicking Create an account, you agree to our <span class="blue"> Terms </span> and confirm that you have read our
+                  <span class="blue">Data Policy</span>, including our <span class="blue"> Cookie Use Policy</span>. You may receive SMS message notifications from Facebook and can opt out at any time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+</html>
