@@ -38,3 +38,29 @@
 .terms p {
   margin-bottom: 0;
 }
+
+.fb-navbar-link {
+  color: white;
+}
+.profile-picture{
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin: auto;
+}
+
+.nav-flex {
+  display: flex;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.nav-sep {
+  color: #264077;
+}
+
+.navbar-search{
+  width: 500px !important;
+}
