@@ -70,3 +70,7 @@
 .custom-margin-bottom {
   margin-bottom: 57px;
 }
+
+html {
+  zoom: 90%; 
+}
