@@ -72,5 +72,18 @@
 }
 
 html {
-  zoom: 90%; 
+  zoom: 90%;
+}
+
+body {
+  background-color: #E9EBEE;
+}
+
+.cust-left-nav {
+  border: 1px solid transparent;
+  background-color: inherit;
+}
+
+.cust-left-nav:hover {
+  border: 1px solid rgba(0,0,0,.125) !important;
 }
